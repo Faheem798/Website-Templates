@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: rgb(199, 180, 216);
+            padding: 23px;
+        }
+
+        body {
+            background-color: bisque;
+
+        }
+
+        .container {
+            min-height: 100vh;
+            background-color: aqua;
+            margin: auto;
+
+        }
+
+        footer {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li {
+            font-family: 'Poppins', sans-serif;
+            list-style: none;
+            margin: 0px 30px;
+
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        span.logo {
+            text-align: center;
+            text-align: center;
+            font-size: 53px;
+            background-color: coral;
+            margin: 6px;
+            display: flex;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: rgb(22, 18, 18);
+        }
+
+        nav li a:hover {
+            text-decoration: none;
+            color: rgb(142, 119, 243);
+            transition: all;
+            transition-delay: 133ms;
+        }
+
+        .container h1 {
+            align-items: center;
+            color: rgb(117, 0, 226);
+            text-shadow: none;
+
+        }
+
+        .container form {
+            display: flex;
+            text-align: center;
+            margin: 33px;
+            flex-direction: column;
+        }
+
+        .container {
+            margin: 33px;
+            padding: 35px;
+        }
+
+        .container form input[type="number"],select,label{
+            background-color: rgb(208, 237, 245);
+            margin: 33px;
+            font-size: 25px;
+
+            
+
+
+        }
+        .container form label{
+            margin-top: 1;
+            color: rgb(19, 37, 204);
+            background-color: rgb(100, 230, 240);
+        }
+
+        .btn {
+            margin-top: 22px;
+            width: 110px;
+            height: 50px;
+            background-color: #008a91;
+            color: white;
+            font-size: 22px;
+            font-family: 'Poppins';
+            border-radius: 6px;
+            cursor: pointer;
+            align-items: center;
+        }
+    </style>
+
+
+
+
+
+    <nav>
+        <span class="logo">CurrencyConverter
+        </span>
+        <ul class="nav-bar">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form action="/action.php" method="get">
+            <br>
+            <h1>Convert Currency</h1>
+            <label for="choose-currency">choose currency</label>
+            <select name="Contry">
+                <option selected="selected" value="dollar">USD</option>
+                <option value="Euro">EUR</option>
+                <option value="pakistani rupee">PKR</option>
+            </select><br />
+            <input type="number" name="quality" min="1" max="10">
+            <br><button class="btn">Convert</button>
+
+        </form>
+        <div class="output"><table>
+            <caption>Demo Table</caption>
+            <thead>
+                <tr>
+                    <th>Column1</th>
+                    <th colspan="2">Column2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data1</td>
+                    <td>Data2</td>
+                    <td>Data2</td>
+                </tr>
+                <tr>
+                    <td>Data1</td>
+                    <td>Data2</td>
+                    <td>Data2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                </tr>
+            </tfoot>
+        </table></div>
+    </div>
+    <footer>
+        Copyright &copy; All Copyrights are reserved.
+    </footer>
+
+</body>
+
+</html>
