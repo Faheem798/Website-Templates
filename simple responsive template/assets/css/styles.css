@@ -1,0 +1,49 @@
+.btn {
+  border-color: #1dcb8c5c;
+}
+
+.navbar {
+  color: var(--bs-border-color);
+  background: rgba(90,215,170,0.36);
+}
+
+.hero-content {
+  background: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    background: transparent;
+    height: 535.594px;
+    width: 753px;
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    height: 634.594px;
+    margin: 53px;
+    padding: 31px;
+    width: 821px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content {
+    height: 813.594px;
+    width: 1088px;
+    margin: 110px;
+    padding: 86px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-content {
+    height: 728.594px;
+    width: 995px;
+    margin: 79px;
+  }
+}
+
